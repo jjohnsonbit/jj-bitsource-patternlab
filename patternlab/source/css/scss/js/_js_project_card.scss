@@ -1,0 +1,50 @@
+.container {
+  margin: 0;
+}
+
+.x {
+  padding: 0;
+  position:relative;
+}
+
+.x:hover img {
+  opacity: 0.5;
+}
+
+.x button {
+  display: none;
+}
+
+.x:hover button {
+  display: block;
+}
+
+.btn-a {
+  position: absolute;
+  top: 5em;
+  left: 3.2em;
+  width: 200px;
+  border: solid;
+  border-width: thin;
+  padding: 2px 8px;
+  z-index: 1;
+  color: black;
+
+}
+
+.btn-b {
+  position: absolute;
+  top: 9.75em;
+  left: 3.2em;
+  width: 200px;
+  border: solid;
+  border-width: thin;
+  padding: 2px 8px;
+  z-index: 1;
+  color: black;
+
+}
+
+img {
+  box-shadow: 3px 3px 4px #5F4D4D;
+}

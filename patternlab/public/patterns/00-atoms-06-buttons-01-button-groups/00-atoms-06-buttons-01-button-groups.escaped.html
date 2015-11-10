@@ -1,0 +1,139 @@
+&lt;h1&gt;Button Groups&lt;/h1&gt;
+&lt;p&gt;Group a series of buttons together on a single line with the button group.&lt;/p&gt;
+&lt;!--Wrap a series of buttons with .btn in a .btn-group --&gt;
+
+&lt;div class=&quot;btn-group&quot; role=&quot;group&quot; aria-label=&quot;...&quot;&gt;
+  &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;Left&lt;/button&gt;
+  &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;Middle&lt;/button&gt;
+  &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;Right&lt;/button&gt;
+&lt;/div&gt;&lt;br&gt;
+
+&lt;!--Combine sets of &lt;div class=&quot;btn-group&quot;&gt; into a &lt;div class=&quot;btn-toolbar&quot;&gt; for more complex components.--&gt;
+&lt;h1&gt;Button Toolbar&lt;/h1&gt;
+&lt;div class=&quot;btn-group&quot; role=&quot;group&quot; aria-label=&quot;First group&quot;&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;1&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;2&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;3&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;4&lt;/button&gt;
+	&lt;/div&gt;
+&lt;div class=&quot;btn-group&quot; role=&quot;group&quot; aria-label=&quot;Second group&quot;&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;5&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;6&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;7&lt;/button&gt;
+     &lt;/div&gt;&lt;br&gt;
+
+&lt;h1&gt;Sizing&lt;/h1&gt;
+&lt;!-- Instead of applying button sizing classes to every button in a group, just add .btn-group-* to each .btn-group, including when nesting multiple groups.--&gt;
+
+&lt;div class=&quot;bs-example&quot; data-example-id=&quot;button-group-sizing&quot;&gt;
+    &lt;div class=&quot;btn-group btn-group-lg&quot; role=&quot;group&quot; aria-label=&quot;Large button group&quot;&gt;
+      &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;Left-lg&lt;/button&gt;
+      &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;Middle-lg&lt;/button&gt;
+      &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;Right-lg&lt;/button&gt;
+    &lt;/div&gt;
+    &lt;br&gt;
+    &lt;div class=&quot;btn-group&quot; role=&quot;group&quot; aria-label=&quot;Default button group&quot;&gt;
+      &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;Left-(default)&lt;/button&gt;
+      &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;Middle-(default)&lt;/button&gt;
+      &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;Right-(default)&lt;/button&gt;
+    &lt;/div&gt;
+    &lt;br&gt;
+    &lt;div class=&quot;btn-group btn-group-sm&quot; role=&quot;group&quot; aria-label=&quot;Small button group&quot;&gt;
+      &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;Left-sm&lt;/button&gt;
+      &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;Middle-sm&lt;/button&gt;
+      &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;Right-sm&lt;/button&gt;
+    &lt;/div&gt;
+    &lt;br&gt;
+    &lt;div class=&quot;btn-group btn-group-xs&quot; role=&quot;group&quot; aria-label=&quot;Extra-small button group&quot;&gt;
+      &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;Left-xs&lt;/button&gt;
+      &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;Middle-xs&lt;/button&gt;
+      &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;Right-xs&lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;&lt;br&gt;
+
+  &lt;h1&gt;Nesting&lt;/h1&gt;
+  &lt;!--Place a .btn-group within another .btn-group when you want dropdown menus mixed with a series of buttons.--&gt;
+
+  	&lt;div class=&quot;bs-example&quot; data-example-id=&quot;button-group-nesting&quot;&gt;
+    &lt;div class=&quot;btn-group&quot; role=&quot;group&quot; aria-label=&quot;Button group with nested dropdown&quot;&gt;
+      &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;1&lt;/button&gt;
+      &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;2&lt;/button&gt;
+
+      &lt;div class=&quot;btn-group&quot; role=&quot;group&quot;&gt;
+        &lt;button id=&quot;btnGroupDrop1&quot; type=&quot;button&quot; class=&quot;btn btn-default dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;
+          Dropdown
+          &lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;ul class=&quot;dropdown-menu&quot; aria-labelledby=&quot;btnGroupDrop1&quot;&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Dropdown link&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Dropdown link&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;&lt;br&gt;
+
+  &lt;h1&gt;Vertical variation&lt;/h1&gt;
+  &lt;!--Make a set of buttons appear vertically stacked rather than horizontally.--&gt;
+
+  &lt;div class=&quot;btn-group-vertical&quot; role=&quot;group&quot; aria-label=&quot;Vertical button group&quot;&gt;
+      &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;Button&lt;/button&gt;
+      &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;Button&lt;/button&gt;
+      &lt;div class=&quot;btn-group&quot; role=&quot;group&quot;&gt;
+        &lt;button id=&quot;btnGroupVerticalDrop1&quot; type=&quot;button&quot; class=&quot;btn btn-default dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;
+          Dropdown
+          &lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;ul class=&quot;dropdown-menu&quot; aria-labelledby=&quot;btnGroupVerticalDrop1&quot;&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Dropdown link&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Dropdown link&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;Button&lt;/button&gt;
+      &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;Button&lt;/button&gt;
+      &lt;div class=&quot;btn-group&quot; role=&quot;group&quot;&gt;
+        &lt;button id=&quot;btnGroupVerticalDrop2&quot; type=&quot;button&quot; class=&quot;btn btn-default dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;
+          Dropdown
+          &lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;ul class=&quot;dropdown-menu&quot; aria-labelledby=&quot;btnGroupVerticalDrop2&quot;&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Dropdown link&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Dropdown link&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;btn-group&quot; role=&quot;group&quot;&gt;
+        &lt;button id=&quot;btnGroupVerticalDrop3&quot; type=&quot;button&quot; class=&quot;btn btn-default dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;
+          Dropdown
+          &lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;ul class=&quot;dropdown-menu&quot; aria-labelledby=&quot;btnGroupVerticalDrop3&quot;&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Dropdown link&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Dropdown link&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;btn-group&quot; role=&quot;group&quot;&gt;
+        &lt;button id=&quot;btnGroupVerticalDrop4&quot; type=&quot;button&quot; class=&quot;btn btn-default dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;
+          Dropdown
+          &lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;ul class=&quot;dropdown-menu&quot; aria-labelledby=&quot;btnGroupVerticalDrop4&quot;&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Dropdown link&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Dropdown link&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;&lt;br&gt;
+
+    &lt;h1&gt;Justified button groups&lt;/h1&gt;
+    &lt;!--Make a group of buttons stretch at equal sizes to span the entire width of its parent. Also works with button dropdowns within the button group.--&gt;
+
+    &lt;div class=&quot;btn-group btn-group-justified&quot; role=&quot;group&quot; aria-label=&quot;Justified button group&quot;&gt;
+      &lt;div class=&quot;btn-group&quot; role=&quot;group&quot;&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;Left&lt;/button&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;btn-group&quot; role=&quot;group&quot;&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;Middle&lt;/button&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;btn-group&quot; role=&quot;group&quot;&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;Right&lt;/button&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;&lt;br&gt;
+    

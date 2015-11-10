@@ -1,0 +1,18 @@
+{
+"text": {
+	"h1":"h1. Bootstrap heading",
+	"h2":"h2. Bootstrap heading",
+	"h3":"h3. Bootstrap heading",
+	"h4":"h4. Bootstrap heading",
+	"h5":"h5. Bootstrap heading",
+	"h6":"h7. Bootstrap heading"
+},
+"secondary": {
+	"h1":"Secondary text",
+	"h2":"Secondary text",
+	"h3":"Secondary text",
+	"h4":"Secondary text",
+	"h5":"Secondary text",
+	"h6":"Secondary text"
+}
+}

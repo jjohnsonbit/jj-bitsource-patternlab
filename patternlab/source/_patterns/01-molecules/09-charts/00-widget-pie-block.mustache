@@ -1,0 +1,13 @@
+<div class="widget-pie">
+    <div class="knob">
+        <div style="display:inline;width:{{canvas.width}}px;height:{{canvas.height}}px;">
+        	<canvas width="{{canvas.width}}" height="{{canvas.height}}" style="width: {{item.width}}px; height: {{item.height}}px;"></canvas>
+        	
+        	<input type="text" data-fgcolor="{{item.fgcolor}}" data-bgcolor="{{item.bgcolor" data-min="{{item.data.min}}" data-max="{{item.data.max}}" data-width="{{item.width}}" data-height="{{item.height}}" value="{{item.data.value}}" style=" {{style}} color: rgba({{item.rgba}});">
+        </div>
+    </div>
+    <div class="widget-pie-info">
+        <div class="widget-pie-info-num">{{item.num}}</div>
+        <div class="widget-pie-info-text">{{item.text}}</div>
+    </div>
+</div>

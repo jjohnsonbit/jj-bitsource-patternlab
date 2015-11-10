@@ -1,0 +1,68 @@
+.js-front-page{
+
+	.js-tertiary-menu{
+
+		.js-tertiary-menu-shadow{
+			position: relative;
+			bottom: 140px;
+			border: 1px solid $brand-tertiary;
+
+			@media (max-width: 767px){
+				position: inherit;
+			}
+		}
+
+		.js-tertiary-caption{
+			font-family: $font-family-roboto-slab;
+
+			h2{
+				font-size: 35px;
+			}
+
+			h4{
+				font-size: 20px;
+				font-weight: 100;
+			}
+		}
+	}
+	 .js-header-nav{
+	 	margin-bottom: 0px;
+	 }
+
+	.jigsaw-jumbotron{
+		margin-top: -20px;
+	}
+
+	.js-front-profile-img{
+		display: table;
+		margin: 0 auto;
+	}
+
+	.js-project-bottom{
+    	border: 2px solid $brand-quinary;
+    	margin-bottom: 10px;
+    	margin-top: 10px;
+	}
+
+	.js-circle-img-paragraph{
+		margin-top: 10px;
+	}
+
+	.js-jumbotron-video-card-text{
+		position: absolute;
+		top: 25%;
+		color: $brand-quaternary;
+		font-family: $font-family-roboto;
+		font-weight: 100;
+
+		h1{
+			font-size: 75px;
+		}
+
+		p{
+			font-size: 35px;
+		}
+	}
+}
+
+

@@ -1,0 +1,17 @@
+{
+"left": {
+	"p":"Left aligned text."
+},
+"center": {
+	"p":"Center aligned text."
+},
+"right": {
+	"p":"Right aligned text."
+},
+"justify": {
+	"p":"Justified text."
+},
+"nowrap": {
+	"p":"No wrap text."
+}
+}

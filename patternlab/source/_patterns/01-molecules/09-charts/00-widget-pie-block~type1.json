@@ -1,0 +1,21 @@
+{
+	"canvas": {
+		"width":"90",
+		"height":"90"
+	},
+	"item": {
+		"fgcolor":"#ffffcc",
+		"bgcolor":"#fff",
+		"data":{
+			"value":"95",
+			"min":"0",
+			"max":"100"
+		},
+		"rgba":"54, 32, 11, 0.8",
+		"width":"90",
+		"height":"90",
+		"num":"5,300",
+		"text":"TOTAL VISITORS"
+	},
+	"style":"width: 49px; height: 30px; position: absolute; vertical-align: middle; margin-top: 30px; margin-left: -69px; border: 0px; font-weight: bold; font-style: normal; font-variant: normal; font-stretch: normal; font-size: 18px; line-height: normal; font-family: Arial; text-align: center; padding: 0px; -webkit-appearance: none; background: none;"
+}

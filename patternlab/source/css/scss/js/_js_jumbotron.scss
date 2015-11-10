@@ -1,0 +1,64 @@
+.jigsaw-jumbotron{
+  padding:0!important;
+}
+.jigsaw-jumbotron-text{
+	 color:white;
+   position: absolute; 
+   top: 30%; 
+   font-weight: 100;    
+}
+.jigsaw-jumbotron-text h1{
+  font-size: 50px!important;
+  text-align: center; 
+  font-weight: 700;
+  margin-bottom: 0px!important; 
+}
+.js-jumbotron-p-text{
+  font-size: 21px!important;
+  font-weight: 100;
+  opacity:.75;
+  padding-left: 6em;
+  padding-right: 6em;
+  text-align: center;
+  margin-top: -5px!important;  
+}
+
+.jigsaw-jumbotron-image{
+  width:100%;
+}
+
+@media (max-width: 670px) {
+  .jigsaw-jumbotron-text h1{
+     font-size:25px!important;
+     
+  }
+  .jigsaw-jumbotron-text p{
+    font-size: 15px!important;
+} 
+}
+
+@media (max-width: 470px) {
+  .jigsaw-jumbotron-text h1{
+     font-size:25px!important;
+     width:100%;
+     margin-top:-25px;
+}
+.jigsaw-jumbotron-text p{
+  margin-bottom: 45px !important;
+  font-size: 12px!important;
+}
+}
+@media (max-width: 390px) {
+  .jigsaw-jumbotron-text h1{
+   display: block;
+  }
+.jigsaw-jumbotron-text{
+  left:28%;
+  text-align: center;
+}
+
+.js-jumbotron-p-text{
+  display:none;
+}
+}
+

@@ -1,0 +1,78 @@
+&lt;!--Navbars are responsive meta components that serve as navigation headers for your application or site. They begin collapsed (and are toggleable) in mobile views and become horizontal as the available viewport width increases.
+
+Justified navbar nav links are currently not supported.
+
+Overflowing content
+Since Bootstrap doesn't know how much space the content in your navbar needs, you might run into issues with content wrapping into a second row. To resolve this, you can:
+
+Reduce the amount or width of navbar items.
+Hide certain navbar items at certain screen sizes using responsive utility classes.
+Change the point at which your navbar switches between collapsed and horizontal mode. Customize the @grid-float-breakpoint variable or add your own media query.
+Requires JavaScript plugin
+If JavaScript is disabled and the viewport is narrow enough that the navbar collapses, it will be impossible to expand the navbar and view the content within the .navbar-collapse.
+
+The responsive navbar requires the collapse plugin to be included in your version of Bootstrap.
+Changing the collapsed mobile navbar breakpoint
+The navbar collapses into its vertical mobile view when the viewport is narrower than @grid-float-breakpoint, and expands into its horizontal non-mobile view when the viewport is at least @grid-float-breakpoint in width. Adjust this variable in the Less source to control when the navbar collapses/expands. The default value is 768px (the smallest &quot;small&quot; or &quot;tablet&quot; screen).
+Make navbars accessible
+Be sure to use a &lt;nav&gt; element or, if using a more generic element such as a &lt;div&gt;, add a role=&quot;navigation&quot; to every navbar to explicitly identify it as a landmark region for users of assistive technologies.--&gt;
+
+
+
+&lt;nav class=&quot;navbar navbar-default&quot;&gt;
+  &lt;div class=&quot;container-fluid&quot;&gt;
+    &lt;!-- Brand and toggle get grouped for better mobile display --&gt;
+    &lt;div class=&quot;navbar-header&quot;&gt;
+      &lt;button type=&quot;button&quot; class=&quot;navbar-toggle collapsed&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#bs-example-navbar-collapse-1&quot; aria-expanded=&quot;false&quot;&gt;
+        &lt;span class=&quot;sr-only&quot;&gt;Toggle navigation&lt;/span&gt;
+        &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+        &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+        &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+      &lt;/button&gt;
+      &lt;a class=&quot;navbar-brand&quot; href=&quot;#&quot;&gt;Brand&lt;/a&gt;
+    &lt;/div&gt;
+
+    &lt;!-- Collect the nav links, forms, and other content for toggling --&gt;
+    &lt;div class=&quot;collapse navbar-collapse&quot; id=&quot;bs-example-navbar-collapse-1&quot;&gt;
+      &lt;ul class=&quot;nav navbar-nav&quot;&gt;
+        &lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;#&quot;&gt;click&lt;span class=&quot;sr-only&quot;&gt;(current)&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;click&lt;/a&gt;&lt;/li&gt;
+        &lt;li class=&quot;dropdown&quot;&gt;
+          &lt;a href=&quot;#&quot; class=&quot;dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; role=&quot;button&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;click&lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+          &lt;ul class=&quot;dropdown-menu&quot;&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;click&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;click&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;click&lt;/a&gt;&lt;/li&gt;
+            &lt;li role=&quot;separator&quot; class=&quot;divider&quot;&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;click&lt;/a&gt;&lt;/li&gt;
+            &lt;li role=&quot;separator&quot; class=&quot;divider&quot;&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;click&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;form class=&quot;navbar-form navbar-left&quot; role=&quot;search&quot;&gt;
+        &lt;div class=&quot;form-group&quot;&gt;
+          &lt;input type=&quot;text&quot; class=&quot;form-control&quot; placeholder=&quot;Search&quot;&gt;
+        &lt;/div&gt;
+        &lt;button type=&quot;submit&quot; class=&quot;btn btn-default&quot;&gt;click&lt;/button&gt;
+      &lt;/form&gt;
+      &lt;ul class=&quot;nav navbar-nav navbar-right&quot;&gt;
+        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;click&lt;/a&gt;&lt;/li&gt;
+        &lt;li class=&quot;dropdown&quot;&gt;
+          &lt;a href=&quot;#&quot; class=&quot;dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; role=&quot;button&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;click &lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+          &lt;ul class=&quot;dropdown-menu&quot;&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;click&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;click&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;click&lt;/a&gt;&lt;/li&gt;
+            &lt;li role=&quot;separator&quot; class=&quot;divider&quot;&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;click&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;&lt;!-- /.navbar-collapse --&gt;
+  &lt;/div&gt;&lt;!-- /.container-fluid --&gt;
+&lt;/nav&gt;
+
+
+
+

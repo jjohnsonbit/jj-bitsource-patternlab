@@ -1,0 +1,14 @@
+{
+"page-header": {
+	"div":"Featured",
+	"div2":"Top Stories"
+},
+"row": {
+	"h3":"This is Some Awesome Featured Content",
+	"h4":"techvisually.com",
+	"small":"1 hour ago • ",
+	"text-muted":"Read More",
+	"src":"http://api.randomuser.me/portraits/thumb/men/19.jpg",
+	"href":"#"
+}
+}

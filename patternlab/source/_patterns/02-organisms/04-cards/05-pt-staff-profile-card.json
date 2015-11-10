@@ -1,0 +1,10 @@
+{
+	"image-card":{
+		"img-1":"../../images/testimage1.png",
+		"name":"NAME",
+		"position":"Boss",
+		"email":"name@mail.com",
+		"phone#":"000-000-0000 | 000-000-0011",
+		"description":"Bacon ipsum dolor amet jerky pig alcatra bresaola. Pig bacon alcatra leberkas."
+	}
+}

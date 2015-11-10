@@ -1,0 +1,25 @@
+.jigsaw-full-display-card-main-div{
+	background-color: #9c9c9c;
+	color:white;
+	font-weight:100;
+	text-align: left;
+}
+.jigsaw-full-display-card-main-div h1{
+	font-size: 30px;
+	font-weight: 100;
+	padding-left:15px;
+}
+.jigsaw-full-display-card-main-div p{
+	font-size: 18px;
+	padding-left:15px;
+}
+.jigsaw-full-display-image-card-pic{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin:auto;
+}
+@media (max-width: 767px) {
+		.jigsaw-full-display-card-main-div h1{
+			text-align: center;
+		}
+	}

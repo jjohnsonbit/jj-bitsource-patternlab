@@ -1,0 +1,7 @@
+{
+    "styleModifier": "alert-success",
+    "alert":{
+    	"title": "Success!",
+    	"excerpt": "Payton is awesome!"
+    }
+}

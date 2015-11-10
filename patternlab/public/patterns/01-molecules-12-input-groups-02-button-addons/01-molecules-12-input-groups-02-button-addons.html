@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html class="pl">
+	<head>
+		<title>Bit Source - Death Star</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width" />
+
+		<link rel="stylesheet" href="../../css/style.css?1447099745" media="all" />
+
+		<!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
+				<!-- never cache patterns -->
+		<meta http-equiv="cache-control" content="max-age=0" />
+		<meta http-equiv="cache-control" content="no-cache" />
+		<meta http-equiv="expires" content="0" />
+		<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+		<meta http-equiv="pragma" content="no-cache" />
+		
+		<link rel="stylesheet" href="../../styleguide/css/styleguide.css?1447099745" media="all">
+		<link rel="stylesheet" href="../../styleguide/css/styleguide-specific.css?1447099745" media="all" />
+		
+
+		<!-- End Pattern Lab -->
+
+	</head>
+	<body class="body">
+		<div class="container js-container-full">
+<h1>Button addons</h1>
+<!--Buttons in input groups are a bit different and require one extra level of nesting. Instead of .input-group-addon, you'll need to use .input-group-btn to wrap the buttons. This is required due to default browser styles that cannot be overridden.-->
+
+<div class="row">
+  <div class="col-lg-6">
+    <div class="input-group">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button">Go!</button>
+      </span>
+      <input type="text" class="form-control" placeholder="Search for...">
+    </div><!-- /input-group -->
+  </div><!-- /.col-lg-6 -->
+  <div class="col-lg-6">
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Search for...">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button">Go!</button>
+      </span>
+    </div><!-- /input-group -->
+  </div><!-- /.col-lg-6 -->
+</div><!-- /.row --><br>
+
+<h1>Buttons with dropdowns</h1><br>
+<div class="row">
+  <div class="col-lg-6">
+    <div class="input-group">
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action <span class="caret"></span></button>
+        <ul class="dropdown-menu">
+          <li><a href="#">Action</a></li>
+          <li><a href="#">Another action</a></li>
+          <li><a href="#">Something else here</a></li>
+          <li role="separator" class="divider"></li>
+          <li><a href="#">Separated link</a></li>
+        </ul>
+      </div><!-- /btn-group -->
+      <input type="text" class="form-control" aria-label="...">
+    </div><!-- /input-group -->
+  </div><!-- /.col-lg-6 -->
+  <div class="col-lg-6">
+    <div class="input-group">
+      <input type="text" class="form-control" aria-label="...">
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action <span class="caret"></span></button>
+        <ul class="dropdown-menu dropdown-menu-right">
+          <li><a href="#">Action</a></li>
+          <li><a href="#">Another action</a></li>
+          <li><a href="#">Something else here</a></li>
+          <li role="separator" class="divider"></li>
+          <li><a href="#">Separated link</a></li>
+        </ul>
+      </div><!-- /btn-group -->
+    </div><!-- /input-group -->
+  </div><!-- /.col-lg-6 -->
+</div><!-- /.row --><br>
+
+<h1>Segmented buttons</h1><br>
+<form class="bs-example bs-example-form" data-example-id="input-group-segmented-buttons">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="input-group">
+          <div class="input-group-btn">
+            <button type="button" class="btn btn-default">Action</button>
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="caret"></span>
+              <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </div>
+          <input type="text" class="form-control" aria-label="Text input with segmented button dropdown">
+        </div><!-- /.input-group -->
+      </div><!-- /.col-lg-6 -->
+      <div class="col-lg-6">
+        <div class="input-group">
+          <input type="text" class="form-control" aria-label="Text input with segmented button dropdown">
+          <div class="input-group-btn">
+            <button type="button" class="btn btn-default">Action</button>
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="caret"></span>
+              <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-right">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </div>
+        </div><!-- /.input-group -->
+      </div><!-- /.col-lg-6 -->
+    </div><!-- /.row -->
+  </form><br>
+
+  <h1>Multiple buttons</h1><br>
+<!--While you can only have one add-on per side, you can have multiple buttons inside a single .input-group-btn.-->
+
+<form class="bs-example bs-example-form" data-example-id="input-group-multiple-buttons">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="input-group">
+          <div class="input-group-btn">
+            <button type="button" class="btn btn-default" aria-label="Bold"><span class="glyphicon glyphicon-bold"></span></button>
+            <button type="button" class="btn btn-default" aria-label="Italic"><span class="glyphicon glyphicon-italic"></span></button>
+          </div>
+          <input type="text" class="form-control" aria-label="Text input with multiple buttons">
+        </div><!-- /.input-group -->
+      </div><!-- /.col-lg-6 -->
+      <div class="col-lg-6">
+        <div class="input-group">
+          <input type="text" class="form-control" aria-label="Text input with multiple buttons">
+          <div class="input-group-btn">
+            <button type="button" class="btn btn-default" aria-label="Help"><span class="glyphicon glyphicon-question-sign"></span></button>
+            <button type="button" class="btn btn-default">Action</button>
+          </div>
+        </div><!-- /.input-group -->
+      </div><!-- /.col-lg-6 -->
+    </div><!-- /.row -->
+  </form><br>
+
+
+	<!--DO NOT REMOVE-->
+		
+	<script>
+		// handle injection of items from PHP
+		var patternPartial = "molecules-button-addons";
+		var lineage        = [];
+		var lineageR       = [];
+		var patternState   = "";
+		var cssEnabled     = false;
+	</script>
+		<script>
+		/*!
+		 * scriptLoader - v0.1
+		 *
+		 * Copyright (c) 2014 Dave Olsen, http://dmolsen.com
+		 * Licensed under the MIT license
+		 *
+		 */
+		
+		var scriptLoader = {
+			
+			run: function(js,cb,target) {
+				var s  = document.getElementById(target+'-'+cb); 
+				for (var i = 0; i < js.length; i++) {
+					var src = (typeof js[i] != "string") ? js[i].src : js[i];
+					var c   = document.createElement('script');
+					c.src   = '../../'+src+'?'+cb;
+					if (typeof js[i] != "string") {
+						if (js[i].dep !== undefined) {
+							c.onload = function(dep,cb,target) {
+								return function() {
+									scriptLoader.run(dep,cb,target);
+								}
+							}(js[i].dep,cb,target);
+						}
+					}
+					s.parentNode.insertBefore(c,s);
+				}
+			}
+			
+		}
+	</script>
+	<script id="pl-js-polyfill-insert-1447099745">
+		(function() {
+			if (self != top) {
+				var cb = '1447099745';
+				var js = [];
+				if (typeof document !== "undefined" && !("classList" in document.documentElement)) {
+					js.push("styleguide/js/vendor/classlist-polyfill.js");
+				}
+				scriptLoader.run(js,cb,'pl-js-polyfill-insert');
+			}
+		})();
+	</script>
+	<script id="pl-js-insert-1447099745">
+		(function() {
+			if (self != top) {
+				var cb = '1447099745';
+				var js = [ { "src": "styleguide/js/vendor/jwerty.js", "dep": [ "styleguide/js/postmessage.js", { "src": "data/annotations.js", "dep": [ "styleguide/js/annotations-pattern.js" ] }, "styleguide/js/code-pattern.js" ] } ];
+				scriptLoader.run(js,cb,'pl-js-insert');
+			}
+		})();
+	</script>
+	
+
+        </div> 
+	</body>
+</html>

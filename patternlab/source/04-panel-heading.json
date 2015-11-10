@@ -1,0 +1,7 @@
+{
+	"panel-with-heading-heading":"Panel heading without title",
+	"panel-with-heading-body":"Panel content",
+	"pt-body-panel-style": "pt-primary-bg",
+	"pt-header-panel-style": "pt-quinary-bg",
+	"pt-header-font-color": "pt-quaternary-font-color"
+}

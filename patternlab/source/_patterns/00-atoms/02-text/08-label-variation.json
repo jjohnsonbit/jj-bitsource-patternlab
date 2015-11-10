@@ -1,0 +1,20 @@
+{
+"Default": {
+	"span":"Default"
+},
+"Primary": {
+	"span":"Primary"
+},
+"Success": {
+	"span":"Success"
+},
+"Info": {
+	"span":"Info"
+},
+"Warning": {
+	"span":"Warning"
+},
+"Danger": {
+	"span":"Danger"
+}
+}

@@ -1,0 +1,14 @@
+{
+"dl": {
+	"dt":"Definition List",
+	"dd":"A number of connected items or names written or printed consecutively, typically one below the other.",
+	"dt":"This is a term.",
+	"dd1":"This is the definition of that term, which both live in a ",
+	"code":"dl",
+	"dd2":".",
+	"dt1":"Here is another term.",
+	"dd3":"And it gets a definition too, which is this line.",
+	"dt2":"Here is term that shares a definition with the term below.",
+	"dd4":"And it gets a definition too, which is this line."
+}
+}

@@ -1,0 +1,78 @@
+<!--Navbars are responsive meta components that serve as navigation headers for your application or site. They begin collapsed (and are toggleable) in mobile views and become horizontal as the available viewport width increases.
+
+Justified navbar nav links are currently not supported.
+
+Overflowing content
+Since Bootstrap doesn't know how much space the content in your navbar needs, you might run into issues with content wrapping into a second row. To resolve this, you can:
+
+Reduce the amount or width of navbar items.
+Hide certain navbar items at certain screen sizes using responsive utility classes.
+Change the point at which your navbar switches between collapsed and horizontal mode. Customize the @grid-float-breakpoint variable or add your own media query.
+Requires JavaScript plugin
+If JavaScript is disabled and the viewport is narrow enough that the navbar collapses, it will be impossible to expand the navbar and view the content within the .navbar-collapse.
+
+The responsive navbar requires the collapse plugin to be included in your version of Bootstrap.
+Changing the collapsed mobile navbar breakpoint
+The navbar collapses into its vertical mobile view when the viewport is narrower than @grid-float-breakpoint, and expands into its horizontal non-mobile view when the viewport is at least @grid-float-breakpoint in width. Adjust this variable in the Less source to control when the navbar collapses/expands. The default value is 768px (the smallest "small" or "tablet" screen).
+Make navbars accessible
+Be sure to use a <nav> element or, if using a more generic element such as a <div>, add a role="navigation" to every navbar to explicitly identify it as a landmark region for users of assistive technologies.-->
+
+
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="{{navbar.href}}">{{navbar.text}}</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">{{navbar.li}}<span class="sr-only">(current)</span></a></li>
+        <li><a href="#">{{navbar.li}}</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{navbar.li}}<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="{{navbar.href}}">{{navbar.li}}</a></li>
+            <li><a href="{{navbar.href}}">{{navbar.li}}</a></li>
+            <li><a href="{{navbar.href}}">{{navbar.li}}</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="{{navbar.href}}">{{navbar.li}}</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="{{navbar.href}}">{{navbar.li}}</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">{{navbar.li}}</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="{{navbar.href}}">{{navbar.li}}</a></li>
+        <li class="dropdown">
+          <a href="{{navbar.href}}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{navbar.li}} <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="{{navbar.href}}">{{navbar.li}}</a></li>
+            <li><a href="{{navbar.href}}">{{navbar.li}}</a></li>
+            <li><a href="{{navbar.href}}">{{navbar.li}}</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="{{navbar.href}}">{{navbar.li}}</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+
+

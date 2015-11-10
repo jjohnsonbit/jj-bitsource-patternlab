@@ -1,0 +1,13 @@
+<div class="pt-service-card-org col-lg-3 col-md-3 col-sm-6 col-xs-12" >
+	<div>
+	{{> atoms-resp-image (src:{{src}}, width:{{width}}, max-width:{{max-width}}, alt:{{alt}})}}
+	</div>
+	<div class="pt-service-background">
+	{{> atoms-headings-h2 (text:{{text}})}}
+	</div>
+	<div>
+	{{> atoms-paragraph (text:{{label}})}}
+	{{> atoms-resp-image (src:{{src}}, width:{{width}}, max-width:{{max-width}}, alt:{{alt}})}}
+	{{> atoms-primary-block-button (text:{{label}})}}
+	</div>
+</div>

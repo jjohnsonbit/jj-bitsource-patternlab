@@ -1,0 +1,11 @@
+{
+    "thumbnail":{
+    	"src": "../../images/thumbnail_242x200.svg",
+    	"alt": "Square SVG",
+    	"label":"Label",
+    	"description":"description",
+    	"href":"#",
+    	"link":"Link",
+    	"buttonClass":"btn-primary"
+    }
+}

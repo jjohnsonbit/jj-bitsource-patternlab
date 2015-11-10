@@ -1,0 +1,86 @@
+.js-footer{
+	
+	color: $font-quaternary;
+
+	.js-footer-bottom{
+		background-color: $secondary-bg;
+	}
+
+	.js-footer-values-statement{
+		color: $font-tertiary;
+	}
+
+	.js-footer-menu{
+		font-size: 12px;
+		padding-top: 18px;
+	}
+
+	.js-footer-nav{
+		border-color: transparent;
+		background-color: transparent;
+	}
+
+	.js-footer-nav ul.nav li a{
+		color: $font-quaternary;
+		padding: 10px 5px; 
+	}
+
+	.js-footer-nav ul.nav li a:hover,
+	.js-footer-nav ul.nav li a:focus{
+		color: $font-tertiary;
+	}
+
+	.js-osha-footer-img{
+		padding-top: 10px;
+	}
+
+	.js-footer .glyphicon-upload{
+		font-size: 5em;
+	}
+
+	.js-footer-middle{
+		background-color: #000;
+	}
+
+	.js-footer-middle p{
+		color: $font-tertiary;
+		font-size: 12px;
+	}
+
+	.js-footer-animation{
+		padding: 15px;
+	}
+
+	.js-footer-animation img{
+		display: table;
+	    margin: 0 auto;
+	}
+
+	.js-footer-button button{
+		border-radius: 20px;
+		background-color: $tertiary-bg;
+		margin-bottom: 10px;
+	}
+
+	.js-footer-area-button button{
+		border-radius: 20px;
+		background-color: $tertiary-bg;
+	}
+
+	.js-footer button:hover,
+	.js-footer button:focus{
+		background-color: $tertiary-bg;
+	}
+
+	.js-goat-img img{
+		margin: 0 auto;
+	}
+
+	.js-meet-bill-col{
+		margin-top: 12px;
+	}
+
+	.js-contact-us-col{
+		margin-top: 12px;
+	}
+}

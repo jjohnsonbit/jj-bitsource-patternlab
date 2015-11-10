@@ -1,0 +1,45 @@
+
+
+
+ 
+ 
+ 
+
+
+ .element {
+  
+    .imagetext{
+      background-color: white;
+      height: 121px;
+      width: 141px;
+      color: black;
+      cursor: pointer;
+      display: table;
+      position: absolute;
+      top: 0;
+      opacity: 0;
+      -webkit-transition: opacity 500ms;
+      -moz-transition: opacity 500ms;
+      -o-transition: opacity 500ms;
+      transition: opacity 500ms;
+    }
+  
+  text-align: center;
+  padding: 0;
+  width:153px;
+  margin: 0 auto;
+}
+
+.element:hover .imagetext{
+	opacity: 0.5;
+}
+
+.js-element-container{
+  padding: 0;
+  text-align: center;
+}
+
+.js-inner-element{
+  display: table;
+  margin: 0 auto;
+}

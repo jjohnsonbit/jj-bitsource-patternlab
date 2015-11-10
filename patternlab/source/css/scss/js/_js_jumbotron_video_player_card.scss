@@ -1,0 +1,39 @@
+.js-jumbotron-video-card{
+  padding:0px!important;
+  width:full!important;
+  background-color:transparent;
+  position: absolute;
+  top: 0;
+}
+
+.js-jumbotron-video-card-text {
+  color:white;
+  text-align: center; 
+  position:absolute;
+  z-index:1;
+  top: 0; 
+  width:100%;
+  font-size: 4.5em;
+  font-weight: 100;
+}
+
+@media (max-width: 635px){
+  .js-jumbotron-video-card-text {
+    font-size: 3em;
+  }
+}
+@media (max-width: 420px){
+  .js-jumbotron-video-card-text {
+    font-size: 2em;
+  }
+}
+@media (max-width: 288px){
+  .js-jumbotron-video-card-text {
+    font-size: 1.5em;
+  }
+  }
+
+
+
+
+

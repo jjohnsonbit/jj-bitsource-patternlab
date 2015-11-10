@@ -1,0 +1,18 @@
+{
+"text": {
+	"h1":"Example heading",
+	"h2":"Example heading",
+	"h3":"Example heading",
+	"h4":"Example heading",
+	"h5":"Example heading",
+	"h6":"Example heading"
+},
+"label": {
+	"h1":"New",
+	"h2":"New",
+	"h3":"New",
+	"h4":"New",
+	"h5":"New",
+	"h6":"New"
+}
+}

@@ -1,0 +1,12 @@
+{
+	"title":"Service Title",
+	"address":"379 Hambley Blvd.",
+	"link":"www.service.com",
+	"number":"555-555-5555",
+	"social-media":"Social Media Links",
+	"src":"../../images/fpo_16x9.png",
+	"width":"100%",
+	"max-width":"",
+	"alt":"",
+	"label":"Link"
+}

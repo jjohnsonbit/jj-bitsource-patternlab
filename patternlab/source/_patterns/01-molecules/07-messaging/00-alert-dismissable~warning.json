@@ -1,0 +1,7 @@
+{
+    "styleModifier": "alert-warning",
+    "alert":{
+    	"title": "Warning!",
+    	"excerpt": "What are you doing!"
+    }
+}

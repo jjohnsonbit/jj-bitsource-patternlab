@@ -1,0 +1,10 @@
+{
+"nav": {
+	"text":"Home",
+	"badge":"42",
+	"text1":"Profile",
+	"text2":"Messages",
+	"badge2":"3",
+	"href":"#"
+}
+}

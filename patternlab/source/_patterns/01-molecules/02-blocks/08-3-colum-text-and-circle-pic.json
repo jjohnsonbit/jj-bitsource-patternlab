@@ -1,0 +1,12 @@
+{
+"col-md-4": {
+	"href":"#",
+	"h2":"Mobile-first",
+	"p":"Tablets, phones, laptops. The new 3 promises to be mobile friendly from the start.",
+	"a":"View details »",
+	"h2-fluid":"One Fluid Grid",
+	"p-fluid":"There is now just one percentage-based grid for Bootstrap 3. Customize for fixed widths.",
+	"h2-less":"LESS is More",
+	"p-less":"Improved support for mixins make the new Bootstrap 3 easier to customize."
+}
+}

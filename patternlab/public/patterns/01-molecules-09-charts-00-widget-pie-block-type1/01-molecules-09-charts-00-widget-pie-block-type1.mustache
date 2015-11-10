@@ -1,0 +1,13 @@
+&lt;div class=&quot;widget-pie&quot;&gt;
+    &lt;div class=&quot;knob&quot;&gt;
+        &lt;div style=&quot;display:inline;width:{{canvas.width}}px;height:{{canvas.height}}px;&quot;&gt;
+        	&lt;canvas width=&quot;{{canvas.width}}&quot; height=&quot;{{canvas.height}}&quot; style=&quot;width: {{item.width}}px; height: {{item.height}}px;&quot;&gt;&lt;/canvas&gt;
+        	
+        	&lt;input type=&quot;text&quot; data-fgcolor=&quot;{{item.fgcolor}}&quot; data-bgcolor=&quot;{{item.bgcolor&quot; data-min=&quot;{{item.data.min}}&quot; data-max=&quot;{{item.data.max}}&quot; data-width=&quot;{{item.width}}&quot; data-height=&quot;{{item.height}}&quot; value=&quot;{{item.data.value}}&quot; style=&quot; {{style}} color: rgba({{item.rgba}});&quot;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;widget-pie-info&quot;&gt;
+        &lt;div class=&quot;widget-pie-info-num&quot;&gt;{{item.num}}&lt;/div&gt;
+        &lt;div class=&quot;widget-pie-info-text&quot;&gt;{{item.text}}&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;

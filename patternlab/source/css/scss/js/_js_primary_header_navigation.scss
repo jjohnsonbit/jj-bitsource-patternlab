@@ -1,0 +1,64 @@
+.js-navbar-nav li{
+	font-size: 20px;
+	font-weight: 100;
+	border-right:1px solid gray;
+	min-height: 55px;
+}
+.js-logo-header{
+	border-right:1px solid gray;
+	min-height: 55px;
+}
+
+.js-navbar-nav li:last-child{
+	border-right:none;
+}
+
+.js-navbar-nav li a img{
+	margin-top: -10px;
+}
+
+.js-navbar-nav li a {
+	color:white!important;
+	padding: 16px 40px 0px 25px;  
+}
+
+.js-navbar-nav li a:hover{
+	color:rgb(104,144,106)!important;
+}
+
+.js-header-nav{
+	background-color: black;
+	border:none;
+	border-radius: 0px;
+}
+
+.js-navbar-nav{
+	width: 100%;
+}
+
+.js-logo{
+	padding-right: 5px !important;
+}
+
+.js-header-nav .navbar-header{
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.js-header-navbar-default .container-fluid{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+@media (max-width: 1249px) and (min-width: 992px){
+	.js-navbar-nav li a {
+		color:white!important;
+		padding:15px 20px;  
+	}
+}
+@media (max-width: 991px) and (min-width: 767px){
+	.js-navbar-nav li a {
+		color:white!important;
+		padding: 15px 9px;  
+	}
+}

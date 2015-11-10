@@ -1,0 +1,10 @@
+{
+"text": {
+	"ol":"This is a list item in an ordered list",
+	"ol1":"An ordered list is a list in which the sequence of items is important. An ordered list does not necessarily contain sequence characters.",
+	"ol2":"Lists can be nested inside of each other",
+	"ol3":"This is a nested list item",
+	"ol4":"This is another nested list item in an ordered list",
+	"ol5":"This is the last list item"
+}
+}

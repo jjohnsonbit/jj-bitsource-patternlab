@@ -1,0 +1,12 @@
+{
+"panel":{
+	"panel-heading":"Panel heading",
+	"list-group-item1":"Cras justo odio",
+	"list-group-item2":"Dapibus ac facilisis in",
+	"list-group-item3":"Morbi leo risus",
+	"list-group-item4":"Porta ac consectetur ac",
+	"list-group-item5":"Vestibulum at eros",
+	"p":"This is where the content for the panel body will go and be displayed."
+},
+"styleModifier":"background-color:blue"
+}
